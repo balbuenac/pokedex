@@ -11,5 +11,10 @@
     "@cloudflare/workers-types": "^4.20230419.0",
     "typescript": "^5.0.4",
     "wrangler": "^3.0.0"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.3.6",
+    "itty-router": "^4.0.23",
+    "libsql": "^0.1.31"
   }
 }

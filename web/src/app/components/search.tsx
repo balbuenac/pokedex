@@ -15,7 +15,7 @@ function Search() {
         if (pokemon_name == null || pokemon_name == "") {
             pokemon_name = "ditto";
         }
-        const res = await fetch('https://pokeapi.co/api/v2/pokemon/' + pokemon_name);
+        const res = await fetch('http://127.0.0.1:8000/pokemon/?name=' + pokemon_name);
 		const data = await res.json();
         changeData(data);
         changeName(pokemon_name);
